@@ -1,0 +1,10 @@
+:root {
+    --primary-green: hsl(113, 36%, 50%);
+    --primary-green-transparency: hsl(113, 36%, 50%, 1);
+    --primary-pink: hsla(11, 74%, 70%, 1);
+    --primary-text: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 20%);
+    --light-gray-transparency: hsla(0, 0%, 20%, 0.502);
+    --dark-green: hsla(113, 40%, 41%, 1);
+
+}
