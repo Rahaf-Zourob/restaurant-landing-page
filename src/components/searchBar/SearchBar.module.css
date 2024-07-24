@@ -1,0 +1,16 @@
+.input_wrapper {
+    width: fit-content;
+    min-width: 29.375rem;
+    height: 3rem;
+    top: 35rem;
+    left: 8.4375rem;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--absolute-white);
+    border-radius: 0.625rem;
+    display: flex;
+}
+.input {
+    border: none;
+    flex: 1;
+    overflow: hidden;
+}

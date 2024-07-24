@@ -10,9 +10,9 @@ function SearchBar({
     children,
 }) {
     return (
-        <form>
+        <form className={styles.input_wrapper}>
             {label && <span>{label}: </span>}
-            <input
+            <input className={styles.input}
                 type={type}
                 placeholder={placeholder}
                 value={value}

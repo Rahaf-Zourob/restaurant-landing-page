@@ -1,24 +1,13 @@
 import React from "react";
 import Logo from "./components/logo/Logo";
-import SearchBar from "./components/searchBar/SearchBar";
 import FavCard from "./components/favCard/FavCard";
 import FlexParent from "./components/flexParent/FlexParent";
 import TextBox from "./components/TestBox";
+import SearchBar from "./components/searchBar/SearchBar";
+import Button from "./components/Button/Button";
 
 function App() {
-    return (
-        <>
-            <Logo />
-            <SearchBar />
-            <FavCard />
-            <TextBox />
-
-        
-            <FlexParent direction="column" >
-            <TextBox /> <TextBox /> <TextBox />
-            </FlexParent>
-        </>
-    );
+    return <></>;
 }
 
 export default App;

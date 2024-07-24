@@ -6,5 +6,7 @@
     --light-gray: hsl(0, 0%, 20%);
     --light-gray-transparency: hsla(0, 0%, 20%, 0.502);
     --dark-green: hsla(113, 40%, 41%, 1);
+    --absolute-white: hsla(0, 0%, 100%, 1);
+
 
 }
