@@ -1,6 +1,14 @@
 import React from "react";
+import styles from "./SearchBar.module.css";
 
-function SearchBar({ type = "text",label, placeholder, value, onChange, children }) {
+function SearchBar({
+    type = "text",
+    label,
+    placeholder,
+    value,
+    onChange,
+    children,
+}) {
     return (
         <form>
             {label && <span>{label}: </span>}

@@ -1,14 +1,16 @@
-import React from 'react'
-import Logo from './components/Logo'
-import  SearchBar from './components/SearchBar'
+import React from "react";
+import Logo from "./components/logo/Logo";
+import SearchBar from "./components/searchBar/SearchBar";
+import FavCard from "./components/favCard/FavCard";
 
 function App() {
-  return (
-    <>
-      <Logo/>
-    <SearchBar/>
-    </>
-  )
+    return (
+        <>
+            <Logo />
+            <SearchBar />
+            <FavCard />
+        </>
+    );
 }
 
-export default App
+export default App;
