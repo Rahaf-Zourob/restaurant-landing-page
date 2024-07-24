@@ -24,3 +24,8 @@ function FlexParent({
 }
 
 export default FlexParent;
+
+
+// You can determine the - direction of the flex  :   direction = "column / row"
+// You can determine the - element tag of ContainerTag  :   container = "ul / div / h3",
+// You can determine the - element tag of WrapperTag  :   wrapper = "li / div / h4",
