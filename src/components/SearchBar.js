@@ -1,6 +1,6 @@
-import React, { Children } from "react";
+import React from "react";
 
-function SearchBar({ type = "text",label, placeholder, value, onChange, Children }) {
+function SearchBar({ type = "text",label, placeholder, value, onChange, children }) {
     return (
         <form>
             {label && <span>{label}: </span>}
@@ -10,7 +10,7 @@ function SearchBar({ type = "text",label, placeholder, value, onChange, Children
                 value={value}
                 onChange={onChange}
             />
-            {Children}
+            {children}
         </form>
     );
 }
