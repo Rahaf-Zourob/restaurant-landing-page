@@ -1,0 +1,25 @@
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.rectangle {
+    border-radius: 0.3rem;
+    padding: 0.875rem 1.4rem;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.bgPink {
+    background-color: var(--primary-pink);
+}
