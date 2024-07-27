@@ -1,0 +1,85 @@
+.card {
+    background-color: var(--light-gray-transparency-2);
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+button {
+    position: absolute;
+    z-index: 99;
+    top: 1rem;
+    left: 1rem;
+}
+
+.fondas {
+    width: 22.5%;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Work Sans;
+    color: var(--dark-gray);
+    line-height: 2rem;
+    margin-bottom: 0.188rem;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: DM Sans;
+    line-height: 2rem;
+}
+
+.time,
+.mejores .classify {
+    color: var(--dark-gray);
+}
+
+.fondas .classify,
+.mejores .description_mejores,
+.price {
+    color: var(--light-gray-transparency)
+}
+
+.mejores .description {
+    width: 48%;
+}
+
+.fondas .description {
+    width: 100%;
+    padding: 1.2rem 1.5rem 1rem;
+}
+
+.mejores {
+    width: 47.18%;
+}
+
+.mejores .rate {
+    width: 47.3%;
+}
+
+.mejores :is(.classify, .description_mejores) {
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    width: fit-content;
+}
+.mejores .description {
+    padding: 1.5rem 1.5rem 1.3rem 0;
+}
+.mejores h3{
+    margin-top: 1.1rem;
+}
+.mejores .flex{
+    margin-top: 1rem;
+}
