@@ -22,23 +22,23 @@
 @font-face {
     font-family: Work Sans;
     font-weight: 400;
-    src: url(/public/assets/fonts/WorkSans-Regular.ttf);
+    src: url(../public/assets/fonts/WorkSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Work Sans;
     font-weight: 800;
-    src: url(/public/assets/fonts/WorkSans-ExtraBold.ttf);
+    src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
 }
 @font-face {
     font-family: Work Sans;
     font-weight: 700;
-    src: url(/public/assets/fonts/WorkSans-ExtraBold.ttf);
+    src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: DM Sans;
-    src: url(/public/assets/fonts/DMSans_18pt-Regular.ttf);
+    src: url(../public/assets/fonts/DMSans_18pt-Regular.ttf);
 }
 
 svg {

@@ -1,0 +1,32 @@
+.border_radius {
+  border-radius: 50%;
+}
+.small {
+  width: 43px;
+  height: 43px;
+}
+
+.medium {
+  width: 121px;
+  height: 121px;
+}
+
+.large {
+  width: 171px;
+  height: 171px;
+}
+
+.green {
+  background-color: var(--primary-green-transparency);
+}
+
+.light_orange {
+  background-color: var(--light-orange);
+}
+.dark_orange {
+  background-color: var(--dark-orange);
+}
+
+.pink {
+  background-color: var(--light-pink);
+}

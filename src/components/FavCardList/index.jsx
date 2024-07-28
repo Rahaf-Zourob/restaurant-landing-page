@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./FavCardList.module.css";
-import FavCard from "./FavCard";
+import FavCard from "../FavCard/index";
 
 function FavCardList({ cardData }) {
     return (
