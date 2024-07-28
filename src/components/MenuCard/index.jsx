@@ -1,14 +1,13 @@
 import Image from '../Image';
-import BtnRate from '../BtnRate';
+import Rate from '../Rate';
 
 import styles from "./menu.module.css"
-
 export default function MenuCard({ type, image, name, time, classify, description, rateNum, price }) {
   return (
     <div className={`${styles.card} ${type === "fondas" ? styles.fondas : styles.mejores}`}>
       <div className={styles.rate}>
         <Image src={image} alt={name} />
-        <BtnRate rate={rateNum}>{rateNum}</BtnRate>
+        <Rate rate={rateNum}>{rateNum}</Rate>
       </div>
       {type === "fondas" ?
         <div className={styles.description}>
