@@ -1,5 +1,5 @@
 import styles from "./linkList.module.css"
-export default function LinkList({ data, social_media, img }) {
+export default function LinkList({ data, social_media, img, direction }) {
   return (
     <>
       {img ?
@@ -10,8 +10,8 @@ export default function LinkList({ data, social_media, img }) {
             </li>
             )
           } </ul> :
-        <ul>
-          {data.map(service=><li key={service.id}><a href={service.link}>{service.name}</a></li>)}
+        <ul className={`${styles.service} ${direction === "row" ? styles.row : styles.column}`}>
+          {data.map(service => <li key={service.id}><a href={service.link}>{service.name}</a></li>)}
         </ul>
       }
     </>

@@ -1,6 +1,6 @@
 import MenuCard from '../../../../components/MenuCard';
-import Container from './../../../../components/Container/index';
-import HeadSection from './../../../../components/HeadSection/index';
+import Container from './../../../../components/Container';
+import HeadSection from './../../../../components/HeadSection';
 
 import { mejoresData } from './../../../../mock/mejoresData';
 
