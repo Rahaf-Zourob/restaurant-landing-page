@@ -1,0 +1,25 @@
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--absolute-white);
+    border-radius: 0.625rem;
+}
+
+.input {
+    width: 73.5%;
+    border: none;
+    outline: none;
+    border-radius: 0.625rem;
+    color: var(--light-gray-transparency);
+    padding: 8px 0 8px 1rem;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.input_wrapper svg {
+    width: 26.5%;
+}

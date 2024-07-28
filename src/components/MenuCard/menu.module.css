@@ -8,13 +8,6 @@
     flex-direction: row;
 }
 
-button {
-    position: absolute;
-    z-index: 99;
-    top: 1rem;
-    left: 1rem;
-}
-
 .fondas {
     width: 22.5%;
     flex-direction: column;
@@ -64,6 +57,7 @@ button {
 
 .mejores .rate {
     width: 47.3%;
+    height: 100%;
 }
 
 .mejores :is(.classify, .description_mejores) {

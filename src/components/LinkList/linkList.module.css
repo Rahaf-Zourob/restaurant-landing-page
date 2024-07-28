@@ -1,9 +1,12 @@
-.img_list {
+ul {
     list-style: none;
-    width: fit-content;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul.img_list {
+    justify-content: center;
 }
 
 .social_media {
@@ -26,4 +29,34 @@
 
 .payment {
     margin-right: 1rem;
+}
+
+ul.service {
+    width: fit-content;
+    justify-content: space-between;
+}
+
+ul.service li a {
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: var(--absolute-white);
+}
+
+ul.service li a:hover {
+    text-decoration: underline;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row li {
+    margin-right: 1.3rem;
 }
