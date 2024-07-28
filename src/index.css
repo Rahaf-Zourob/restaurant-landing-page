@@ -13,6 +13,7 @@
     --light-gray: hsl(0, 0%, 20%);
     --light-gray-transparency: hsla(0, 0%, 20%, 0.5);
     --light-gray-transparency-2: hsla(0, 0%, 97%, 1);
+    --light-gray-transparency-3: hsla(0, 0%, 100%, 0.5);
     --dark-green: hsla(113, 40%, 41%, 1);
     --absolute-white: hsla(0, 0%, 100%, 1);
     --primary-dark-green: hsla(113, 36%, 50%, 1);
@@ -42,4 +43,8 @@
 
 svg {
     display: block;
+}
+
+a{
+    text-decoration: none;
 }
