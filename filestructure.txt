@@ -6,10 +6,13 @@
     |-- assets
         |-- Images
             |-- .gitkeep
+            |-- coffee.png
+            |-- cutting_table.png
             |-- desayunos.png
             |-- donaLaura.png
+            |-- egg_pan.png
             |-- ensaladish.png
-            |-- fonditas.png
+            |-- green-background.png
             |-- hotCaketerías.png
             |-- leCottidiene.png
             |-- otrosDesayunos.png
@@ -34,6 +37,9 @@
         |-- Button
             |-- button.module.css
             |-- index.jsx
+        |-- Circle
+            |-- Circle.module.css
+            |-- index.jsx
         |-- Container
             |-- container.module.css
             |-- index.jsx
@@ -46,8 +52,14 @@
         |-- FavCardList
             |-- FavCardList.module.css
             |-- index.jsx
+        |-- FlexDiv
+            |-- FlexDiv.module.css
+            |-- index.jsx
         |-- HeadSection
             |-- HeadSection.module.css
+            |-- index.jsx
+        |-- HeroSection
+            |-- HeroSection.module.css
             |-- index.jsx
         |-- Image
             |-- image.module.css
@@ -76,6 +88,7 @@
         |-- .gitkeep
         |-- footer.js
         |-- menuLinks.js
+        |-- navbarMenu.js
         |-- socialMedia.js
     |-- index.css
     |-- index.js
@@ -94,13 +107,17 @@
     |-- utils
         |-- .gitkeep
         |-- applePay.js
+        |-- bigWaves.js
+        |-- cart.js
         |-- combinedShape.js
         |-- facebook.js
         |-- instagram.js
         |-- leftArrow.js
+        |-- location.js
         |-- mastercard.js
         |-- message.js
         |-- rate.js
         |-- rightArrow.js
+        |-- smallWaves.js
         |-- twitter.js
         |-- visa.js

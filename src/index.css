@@ -1,50 +1,52 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-green: hsl(113, 46%, 60%);
-    --primary-green-transparency: hsl(113, 36%, 50%, 1);
-    --primary-pink: hsla(11, 74%, 70%, 1);
-    --primary-text: hsl(0, 0%, 100%);
-    --dark-gray: hsla(0, 0%, 20%, 1);
-    --light-gray: hsl(0, 0%, 20%);
-    --light-gray-transparency: hsla(0, 0%, 20%, 0.5);
-    --light-gray-transparency-2: hsla(0, 0%, 97%, 1);
-    --light-gray-transparency-3: hsla(0, 0%, 100%, 0.5);
-    --dark-green: hsla(113, 40%, 41%, 1);
-    --absolute-white: hsla(0, 0%, 100%, 1);
-    --primary-dark-green: hsla(113, 36%, 50%, 1);
+  --primary-green: hsl(113, 46%, 60%);
+  --primary-green-transparency: hsl(113, 36%, 50%, 1);
+  --primary-pink: hsla(11, 74%, 70%, 1);
+  --primary-text: hsl(0, 0%, 100%);
+  --dark-gray: hsla(0, 0%, 20%, 1);
+  --light-gray: hsl(0, 0%, 20%);
+  --light-gray-transparency: hsla(0, 0%, 20%, 0.5);
+  --light-gray-transparency-2: hsla(0, 0%, 97%, 1);
+  --light-gray-transparency-3: hsla(0, 0%, 100%, 0.5);
+  --dark-green: hsla(113, 40%, 41%, 1);
+  --absolute-white: hsla(0, 0%, 100%, 1);
+  --light-greenish-blue: hsla(33, 100%, 91%, 1);
+  --dark-orange: hsla(11, 74%, 70%, 1);
+  --light-pink: hsla(12, 100%, 94%, 1);
 }
 
 @font-face {
-    font-family: Work Sans;
-    font-weight: 400;
-    src: url(../public/assets/fonts/WorkSans-Regular.ttf);
+  font-family: Work Sans;
+  font-weight: 400;
+  src: url(../public/assets/fonts/WorkSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: Work Sans;
-    font-weight: 800;
-    src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
+  font-family: Work Sans;
+  font-weight: 800;
+  src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
 }
 @font-face {
-    font-family: Work Sans;
-    font-weight: 700;
-    src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
+  font-family: Work Sans;
+  font-weight: 700;
+  src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
 }
 
 @font-face {
-    font-family: DM Sans;
-    src: url(../public/assets/fonts/DMSans_18pt-Regular.ttf);
+  font-family: DM Sans;
+  src: url(../public/assets/fonts/DMSans_18pt-Regular.ttf);
 }
 
 svg {
-    display: block;
+  display: block;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
