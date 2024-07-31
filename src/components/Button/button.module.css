@@ -3,6 +3,12 @@
     outline: none;
     cursor: pointer;
     text-align: center;
+    color: var(--absolute-white);
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.302rem;
+    text-align: center;
 }
 
 .circle {
@@ -14,6 +20,7 @@
 .rectangle {
     border-radius: 0.3rem;
     padding: 0.875rem 1.4rem;
+    width: 20%;
 }
 
 .transparent {

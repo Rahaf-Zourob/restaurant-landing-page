@@ -1,4 +1,4 @@
-.button {
+.container {
     border: none;
     outline: none;
     width: 5.7rem;
@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-pink);
+    position: absolute;
+    z-index: 99;
+    top: 1rem;
+    left: 1rem;
 }
 
 .p {

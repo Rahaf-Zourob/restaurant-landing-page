@@ -1,0 +1,91 @@
+.footer {
+    background-color: var(--dark-gray);
+    position: absolute;
+    z-index: 88;
+    width: 100%;
+    bottom: auto;
+    padding: 2.438rem 0 2.313rem;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 30%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact img {
+    margin: 1.75rem 0;
+}
+
+h3 {
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    text-align: left;
+    color: var(--absolute-white);
+}
+
+hr {
+    border: 0 none;
+    height: 1px;
+    opacity: 0.2;
+    background-color: var(--absolute-white);
+    margin: 0.8rem 0 2.87rem;
+}
+
+a.footerHead {
+    display: block;
+    color: var(--absolute-white);
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.subscribe {
+    width: 22.4%;
+}
+
+.menu {
+    width: 37.6%;
+}
+
+.menu div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 52.4%;
+}
+
+a.footerHead:hover {
+    text-decoration: underline;
+}
+.footerLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerLinks ul.row{
+    width: 20%;
+}
+.signature {
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: var( --light-gray-transparency-3);
+    margin-left: 4.375rem;
+}
