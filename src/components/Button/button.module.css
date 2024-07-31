@@ -23,8 +23,13 @@
   height: 3rem;
 }
 
-.rectangle {
+.radius_small{
   border-radius: 0.3rem;
+}
+.radius_medium{
+  border-radius: 0.625rem;
+}
+.rectangle {
   padding: 0.875rem 1.4rem;
   width: 20%;
 }

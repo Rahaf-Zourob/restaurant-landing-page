@@ -1,6 +1,12 @@
 .border_radius {
   border-radius: 50%;
 }
+.centering_children{
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .small {
   width: 43px;
   height: 43px;

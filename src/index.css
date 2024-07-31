@@ -18,7 +18,8 @@
   --absolute-white: hsla(0, 0%, 100%, 1);
   --light-greenish-blue: hsla(33, 100%, 91%, 1);
   --dark-orange: hsla(11, 74%, 70%, 1);
-  --light-pink: hsla(12, 100%, 94%, 1);
+  --light-orange: hsla(12, 100%, 94%, 1);
+  --mustard : hsla(33, 88%, 69%, 1);
 }
 
 @font-face {
@@ -41,6 +42,10 @@
 @font-face {
   font-family: DM Sans;
   src: url(../public/assets/fonts/DMSans_18pt-Regular.ttf);
+}
+@font-face {
+  font-family: Caveat Sans;
+  src: url(../public/assets/fonts/Caveat-Regular.ttf);
 }
 
 svg {

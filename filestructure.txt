@@ -22,6 +22,7 @@
             |-- rosaCafe.png
         |-- fonts
             |-- .gitkeep
+            |-- Caveat-Regular.ttf
             |-- DMSans_18pt-Regular.ttf
             |-- WorkSans-ExtraBold.ttf
             |-- WorkSans-Regular.ttf

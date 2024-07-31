@@ -7,6 +7,7 @@ function FlexDiv({
   justify = "center",
   align = "center",
   children,
+  className
 }) {
   const directions = {
     row: styles.flex_direction_row,
@@ -21,6 +22,7 @@ function FlexDiv({
     center: styles.justify_center,
     around: styles.justify_space_around,
     between: styles.justify_space_between,
+    start: styles.justify_start,
   };
   const aligns = {
     center: styles.align_center,
@@ -29,7 +31,7 @@ function FlexDiv({
   };
   return (
     <div
-      className={`${styles.flex} ${directions[direction]} ${gaps[gap]} ${justifies[justify]} ${aligns[align]}`}
+      className={`${className} ${styles.flex} ${directions[direction]} ${gaps[gap]} ${justifies[justify]} ${aligns[align]}`}
     >
       {children}
     </div>

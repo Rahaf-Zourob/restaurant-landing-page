@@ -1,6 +1,11 @@
 import styles from "./Circle.module.css";
 
-function Circle({ children, size = "medium", background = "green" }) {
+function Circle({
+  children,
+  size = "medium",
+  background = "green",
+  className,
+}) {
   const sizes = {
     small: styles.small,
     medium: styles.medium,
@@ -14,7 +19,9 @@ function Circle({ children, size = "medium", background = "green" }) {
   };
 
   return (
-    <div className={`${sizes[size]} ${backgrounds[background]} ${styles.border_radius}`}>
+    <div
+      className={`${sizes[size]} ${backgrounds[background]} ${styles.border_radius} ${styles.centering_children} ${className}`}
+    >
       {children}
     </div>
   );
