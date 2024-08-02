@@ -15,13 +15,14 @@
   --light-gray-transparency: hsla(0, 0%, 20%, 0.5);
   --light-gray-transparency-2: hsla(0, 0%, 97%, 1);
   --light-gray-transparency-3: hsla(0, 0%, 100%, 0.5);
+  --light-gray-transparency-4: hsla(0, 0%, 86%, 1);
   --dark-green: hsla(113, 40%, 41%, 1);
   --absolute-white: hsla(0, 0%, 100%, 1);
   --light-greenish-blue: hsla(33, 100%, 91%, 1);
   --dark-orange: hsla(11, 74%, 70%, 1);
-  --light-orange: hsla(12, 100%, 94%, 1);
+  --light-pink: hsla(12, 100%, 94%, 1);
   --vivid-orange: hsla(30, 89%, 60%, 1);
-  --mustard : hsla(33, 88%, 69%, 1);
+  --mustard: hsla(33, 88%, 69%, 1);
 }
 
 @font-face {

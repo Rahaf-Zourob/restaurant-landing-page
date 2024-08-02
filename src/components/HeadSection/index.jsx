@@ -8,11 +8,12 @@ export default function HeadSection({
   description,
   align = "start",
   h2Styling,
-  titleStyling
+  titleStyling,
+  titleContainerWidth
 }) {
   return (
     <FlexDiv direction="column" align={align} gap="none">
-      <p className={styles.classify}>
+      <p className={`${styles.classify} ${titleContainerWidth? styles.width_fit_content : styles.width_fixed}`}>
         <span className={titleStyling}>{classify}</span>
       </p>
       <h2 className={`${styles.head} ${h2Styling}`}>{title}</h2>

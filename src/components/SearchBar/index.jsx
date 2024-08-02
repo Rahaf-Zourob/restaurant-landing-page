@@ -9,10 +9,10 @@ export default function SearchBar({
   className
 }) {
   return (
-    <form className={`${styles.input_wrapper} ${className}`} style={{ width: width }}>
+    <form className={`${className} ${styles.input_wrapper} `} style={{ width: width }}>
       {label && <label>{label}: </label>}
       <input
-        className={styles.input}
+        className={`${styles.input}`}
         type={type}
         name={name}
         placeholder={placeholder}

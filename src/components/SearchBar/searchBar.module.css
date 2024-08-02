@@ -5,6 +5,8 @@
     background-color: var(--absolute-white);
     border: 2px solid var(--absolute-white);
     border-radius: 0.625rem;
+    height: 3rem;
+    overflow: hidden;
 }
 
 .input {
@@ -19,7 +21,9 @@
     font-weight: 400;
     line-height: 2rem;
 }
-
+.input::placeholder{
+  color: var(--light-gray-transparency-4) ;
+}
 .input_wrapper svg {
     width: 26.5%;
 }

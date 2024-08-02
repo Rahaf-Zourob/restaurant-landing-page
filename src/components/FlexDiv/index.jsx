@@ -25,6 +25,7 @@ function FlexDiv({
     around: styles.justify_space_around,
     between: styles.justify_space_between,
     start: styles.justify_start,
+    stretch: styles.justify_stretch,
   };
   const aligns = {
     center: styles.align_center,

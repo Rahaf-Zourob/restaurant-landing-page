@@ -28,6 +28,3 @@ function Circle({
 }
 
 export default Circle;
-
-// You can determine size "small / medium / large"
-// You can determine BK "green / light_orange/ dark_orange/ pink"

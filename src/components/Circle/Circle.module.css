@@ -1,7 +1,7 @@
 .border_radius {
   border-radius: 50%;
 }
-.centering_children{
+.centering_children {
   padding: auto;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .light_orange {
-  background-color: var(--light-orange);
+  background-color: var(--light-greenish-blue);
 }
 .dark_orange {
   background-color: var(--dark-orange);

@@ -33,6 +33,9 @@
 .justify_start {
   justify-content: start;
 }
+.justify_stretch {
+  justify-content: stretch;
+}
 
 .align_center {
   align-items: center;
