@@ -8,6 +8,9 @@
   flex-direction: column;
 }
 
+.gap_none{
+  gap: 0;
+}
 .gap_small {
   gap: 0.5rem;
 }

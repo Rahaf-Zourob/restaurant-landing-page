@@ -7,13 +7,15 @@ function FlexDiv({
   justify = "center",
   align = "center",
   children,
-  className
+  className,
+  onClick,
 }) {
   const directions = {
     row: styles.flex_direction_row,
     column: styles.flex_direction_column,
   };
   const gaps = {
+    none: styles.gap_none,
     small: styles.gap_small,
     medium: styles.gap_medium,
     large: styles.gap_large,
@@ -31,6 +33,7 @@ function FlexDiv({
   };
   return (
     <div
+      onClick={onClick}
       className={`${className} ${styles.flex} ${directions[direction]} ${gaps[gap]} ${justifies[justify]} ${aligns[align]}`}
     >
       {children}

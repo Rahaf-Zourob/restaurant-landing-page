@@ -7,6 +7,7 @@
 :root {
   --primary-green: hsl(113, 46%, 60%);
   --primary-green-transparency: hsl(113, 36%, 50%, 1);
+  --primary-green-transparency-2: hsla(113, 32%, 75%, 1);
   --primary-pink: hsla(11, 74%, 70%, 1);
   --primary-text: hsl(0, 0%, 100%);
   --dark-gray: hsla(0, 0%, 20%, 1);
@@ -19,6 +20,7 @@
   --light-greenish-blue: hsla(33, 100%, 91%, 1);
   --dark-orange: hsla(11, 74%, 70%, 1);
   --light-orange: hsla(12, 100%, 94%, 1);
+  --vivid-orange: hsla(30, 89%, 60%, 1);
   --mustard : hsla(33, 88%, 69%, 1);
 }
 

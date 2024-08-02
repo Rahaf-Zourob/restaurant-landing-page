@@ -14,6 +14,13 @@
             |-- ensaladish.png
             |-- green-background.png
             |-- hotCaketerías.png
+            |-- las_favoritas_carousel
+                |-- cake.png
+                |-- hamburger.png
+                |-- noodle.png
+                |-- pizza.png
+                |-- sushi.png
+                |-- watermelon.png
             |-- leCottidiene.png
             |-- otrosDesayunos.png
             |-- pastish.png
@@ -37,6 +44,12 @@
     |-- components
         |-- Button
             |-- button.module.css
+            |-- index.jsx
+        |-- Carousel
+            |-- Carousel.module.css
+            |-- index.jsx
+        |-- CarouselCard
+            |-- CarouselCard.module.css
             |-- index.jsx
         |-- Circle
             |-- Circle.module.css
@@ -87,6 +100,7 @@
             |-- topFooter.module.css
     |-- constant
         |-- .gitkeep
+        |-- favList.js
         |-- footer.js
         |-- menuLinks.js
         |-- navbarMenu.js
