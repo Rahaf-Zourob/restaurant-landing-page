@@ -2,51 +2,49 @@ import React from "react";
 import FlexDiv from "../FlexDiv";
 import PortraitDecoration from "../PortraitDecoration";
 import Container from "../Container";
-import styles from "./ManCustomer.module.css";
+import styles from "./ChefFemale.module.css";
 import HeadSection from "../HeadSection";
 import SearchBar from "../SearchBar";
 import { location } from "../../utils/location";
 import Button from "../Button";
 import { combinedShape } from "../../utils/combinedShape";
-import { multiCirclePattern } from "../../utils/multiCirclePattern";
 import Circle from "../Circle";
+import { multiCirclePatternV2 } from "../../utils/multiCirclePatternV2";
 
-function ManCustomer() {
-  const imageUrl = "/assets/Images/portrait_Decoration/man.png";
-  // const imageUrl = "./assets/Images/portrait_Decoration/man.png";
+function ChefFemale() {
+  const imageUrl = "/assets/Images/portrait_Decoration/chef-woman.png";
+
   return (
-    <section className="section">
+    <section className={styles.section}>
       <Container>
         <FlexDiv justify="between" gap="large">
           <FlexDiv className={styles.portrait_container}>
             <PortraitDecoration
               className={styles.Portrait_decoration}
+              photoStyling={styles.lady_img}
               imgUrl={imageUrl}
               alter="Man with a laptop"
-              bkColor="pink"
+              bkColor="orange"
             >
               <img
-                className={styles.map_img}
-                src="./assets/Images/portrait_Decoration/map.png"
+                className={styles.wooden_board}
+                src="./assets/Images/portrait_Decoration/wooden-board.png"
+                alt=""
+              />
+              <img
+                className={styles.location_img}
+                src="./assets/Images/portrait_Decoration/location.png"
                 alt="map"
               />
               <img
-                className={styles.bubbles_img}
-                src="./assets/Images/portrait_Decoration/bubbles.png"
+                className={styles.coffee_img}
+                src="./assets/Images/portrait_Decoration/coffee.png"
                 alt="pattern shape"
               />
               <div className={styles.combined_shape_container}>
                 <div className={styles.combined_shape}>{combinedShape}</div>
                 <div className={styles.combined_shape}>{combinedShape}</div>
               </div>
-              <FlexDiv className={styles.cdmx_label} justify="center">
-                <FlexDiv className={styles.location_icon_cdmx}>
-                  {location}
-                </FlexDiv>
-                <div>
-                  <p className={styles.label_text}>CDMX</p>
-                </div>
-              </FlexDiv>
             </PortraitDecoration>
           </FlexDiv>
           <FlexDiv
@@ -56,39 +54,36 @@ function ManCustomer() {
             justify="start"
           >
             <HeadSection
-              classify="MAPA"
-              title="Encuentra en el mapa las mejores fondas"
+              classify="FONDAS"
+              title={<>Sube tu fonda a <span className={styles.bold_span}> fonditas </span> y duplica tus ingresos </>}
               align="start"
               titleStyling={styles.title_styling}
               h2Styling={styles.h2_styling}
               description={
                 <>
-                  Encuentra las fondas cercanas por sí quieres hacer pick up{" "}
-                  <br /> directo en las tiendas.
+                Inscríbete a nuestra plataforma y comienza a generar en estos 
+                  <br /> momentos de crísis
                 </>
               }
               titleContainerWidth
             />
             <FlexDiv justify="stretch">
-              <SearchBar
-                placeholder="Tu código postal"
-                className={styles.form_style}
-                width="16.875rem"
-              >
-                <FlexDiv className={styles.location_icon}>{location}</FlexDiv>
-              </SearchBar>
               <Button radius="medium" bgColor="pink">
-                Buscar en mapa
+              Subir mi fonda
               </Button>
             </FlexDiv>
           </FlexDiv>
         </FlexDiv>
       </Container>
-      <div className={styles.multiCirclePattern}>{multiCirclePattern}</div>
-      <Circle className={styles.big_circle} background="lightOrange" size="large" />
-      <Circle className={styles.small_circle} background="darkOrange" size="small" />
+      <Circle className={styles.big_circle} background="pink" size="large" />
+      <Circle
+        className={styles.small_circle}
+        background="fadeGreen"
+        size="small"
+      />
+        <div className={styles.multi_circle_pattern_v2}> {multiCirclePatternV2}</div>
     </section>
   );
 }
 
-export default ManCustomer;
+export default ChefFemale;

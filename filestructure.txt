@@ -32,13 +32,16 @@
                 |-- location.png
                 |-- man.png
                 |-- map.png
+                |-- wooden-board.png
             |-- querreque.png
             |-- rosaCafe.png
         |-- fonts
             |-- .gitkeep
             |-- Caveat-Regular.ttf
             |-- DMSans_18pt-Regular.ttf
+            |-- WorkSans-Bold.ttf
             |-- WorkSans-ExtraBold.ttf
+            |-- WorkSans-Medium.ttf
             |-- WorkSans-Regular.ttf
             |-- WorkSans-SemiBold.ttf
     |-- favicon.ico
@@ -57,6 +60,9 @@
             |-- index.jsx
         |-- CarouselCard
             |-- CarouselCard.module.css
+            |-- index.jsx
+        |-- ChefFemale
+            |-- ChefFemale.module.css
             |-- index.jsx
         |-- Circle
             |-- Circle.module.css
@@ -145,6 +151,7 @@
         |-- mastercard.js
         |-- message.js
         |-- multiCirclePattern.js
+        |-- multiCirclePatternV2.js
         |-- rate.js
         |-- rightArrow.js
         |-- smallWaves.js

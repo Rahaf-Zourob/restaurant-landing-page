@@ -39,7 +39,17 @@
 @font-face {
   font-family: Work Sans;
   font-weight: 700;
-  src: url(../public/assets/fonts/WorkSans-ExtraBold.ttf);
+  src: url(../public/assets/fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: Work Sans;
+  font-weight: 600;
+  src: url(../public/assets/fonts/WorkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: Work Sans;
+  font-weight: 500;
+  src: url(../public/assets/fonts/WorkSans-Medium.ttf);
 }
 
 @font-face {

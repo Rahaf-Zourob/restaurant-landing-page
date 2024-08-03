@@ -25,7 +25,9 @@
 .green {
   background-color: var(--primary-green-transparency);
 }
-
+.fade_green{
+  background-color: var(--primary-green-transparency-2);
+}
 .light_orange {
   background-color: var(--light-greenish-blue);
 }

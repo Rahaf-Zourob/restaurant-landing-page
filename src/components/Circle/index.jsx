@@ -16,6 +16,7 @@ function Circle({
     lightOrange: styles.light_orange,
     darkOrange: styles.dark_orange,
     pink: styles.pink,
+    fadeGreen: styles.fade_green
   };
 
   return (
