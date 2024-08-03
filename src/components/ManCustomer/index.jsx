@@ -13,9 +13,9 @@ import Circle from "../Circle";
 
 function ManCustomer() {
   const imageUrl = "/assets/Images/portrait_Decoration/man.png";
-  // const imageUrl = "./assets/Images/portrait_Decoration/man.png";
+
   return (
-    <section className="section">
+    <section className={styles.section}>
       <Container>
         <FlexDiv justify="between" gap="large">
           <FlexDiv className={styles.portrait_container}>
@@ -24,6 +24,7 @@ function ManCustomer() {
               imgUrl={imageUrl}
               alter="Man with a laptop"
               bkColor="pink"
+              photoStyling={styles.photo_styling}
             >
               <img
                 className={styles.map_img}
@@ -84,9 +85,17 @@ function ManCustomer() {
           </FlexDiv>
         </FlexDiv>
       </Container>
-      <div className={styles.multiCirclePattern}>{multiCirclePattern}</div>
-      <Circle className={styles.big_circle} background="lightOrange" size="large" />
-      <Circle className={styles.small_circle} background="darkOrange" size="small" />
+      <div className={styles.multi_circle_pattern}>{multiCirclePattern}</div>
+      <Circle
+        className={styles.big_circle}
+        background="lightOrange"
+        size="large"
+      />
+      <Circle
+        className={styles.small_circle}
+        background="darkOrange"
+        size="small"
+      />
     </section>
   );
 }

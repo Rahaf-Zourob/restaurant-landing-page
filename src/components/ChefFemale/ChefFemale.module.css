@@ -1,9 +1,7 @@
 .section {
-  /* margin: 2.5rem 0; */
-  padding-bottom: 12.5rem ;
+  padding-bottom: 12.5rem;
   position: relative;
   overflow: hidden;
-
 }
 .portrait_container {
   width: 50%;
@@ -42,12 +40,12 @@
   flex: 1;
   width: fit-content;
 }
-.lady_img{
+.lady_img {
   position: relative;
   top: 3.6875rem;
   right: -1.25rem;
 }
-.wooden_board{
+.wooden_board {
   position: absolute;
   z-index: -1;
   bottom: 0;
@@ -102,7 +100,7 @@
   text-align: left;
   color: var(--dark-gray);
 }
-.bold_span{
+.bold_span {
   font-weight: 800;
 }
 .multi_circle_pattern_v2 {
@@ -118,10 +116,10 @@
   right: -10rem;
   z-index: -80;
 }
-.small_circle{
+.small_circle {
   position: absolute;
   transform: translate(-50%, 0);
   top: 12.5rem;
   right: 5rem;
-  z-index: -90 ;
+  z-index: -90;
 }

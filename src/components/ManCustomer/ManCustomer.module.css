@@ -1,6 +1,5 @@
 .section {
   position: relative;
-  /* margin: 2.5rem 0; */
   padding-bottom: 12.5rem ;
   overflow: hidden;
 }
@@ -40,6 +39,10 @@
   position: relative;
   flex: 1;
   width: fit-content;
+}
+.photo_styling{
+  position: relative;
+  bottom: -0.3125rem;
 }
 .map_img {
   position: absolute;
@@ -91,11 +94,12 @@
   text-align: left;
   color: var(--dark-gray);
 }
-.multiCirclePattern {
+.multi_circle_pattern {
   position: absolute;
-  left: 1000px;
-  bottom: -500px;
+  left: 0;
+  bottom: 16.875rem;
   z-index: -60;
+
 }
 .big_circle {
   position: absolute;

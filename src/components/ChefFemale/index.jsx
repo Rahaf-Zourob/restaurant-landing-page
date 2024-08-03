@@ -4,8 +4,6 @@ import PortraitDecoration from "../PortraitDecoration";
 import Container from "../Container";
 import styles from "./ChefFemale.module.css";
 import HeadSection from "../HeadSection";
-import SearchBar from "../SearchBar";
-import { location } from "../../utils/location";
 import Button from "../Button";
 import { combinedShape } from "../../utils/combinedShape";
 import Circle from "../Circle";
