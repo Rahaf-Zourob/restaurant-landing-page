@@ -1,19 +1,19 @@
 .container {
-  width: 170px;
-  height: 240px;
+  width: 10.625rem;
+  height: 15rem;
   border: none;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   font-family: DM Sans;
   text-align: center;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .container:hover {
-  box-shadow: 0 15px 15px 17px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.9375rem 0.9375rem 1.0625rem rgba(0, 0, 0, 0.05);
   transform: scale(1.02);
 }
 .container:active {
-  box-shadow: 0 15px 15px 17px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0.9375rem 0.9375rem 1.0625rem rgba(0, 0, 0, 0.09);
   transform: scale(1.07);
 }
 
@@ -21,17 +21,17 @@
   position: relative;
 }
 .img_wrapper {
-  width: 112px;
-  height: 112px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   background-color: var(--absolute-white);
 }
 .rating {
   position: absolute;
   top: 0;
-  right: -8px;
-  width: 40px;
-  height: 40px;
+  right: -0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   background-color: var(--primary-green-transparency-2);
   color: var(--absolute-white);
@@ -40,16 +40,16 @@
   background-color: var(--primary-green-transparency);
 }
 .meal_name {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 .meal_description {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   padding-top: 0;
-  margin-top: -3px;
+  margin-top: -0.1875rem;
   line-height: 0;
 }
 

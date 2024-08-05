@@ -42,5 +42,5 @@
   background-color: var(--primary-pink);
 }
 .insert_border {
-  border: 1px solid var(--absolute-white);
+  border: 0.0625rem solid var(--absolute-white);
 }

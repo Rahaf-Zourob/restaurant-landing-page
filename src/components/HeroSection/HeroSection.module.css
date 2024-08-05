@@ -8,8 +8,8 @@
   margin-top: 2.5rem;
   padding-top: 0.625rem;
   width: 100%;
-  padding-bottom: 40px;
-  margin-bottom: 50px;
+  padding-bottom: 2.5rem;
+  margin-bottom: 3.125rem;
 }
 .imgs_container {
   position: relative;
@@ -71,8 +71,8 @@
   z-index: -100;
 }
 .big_waves {
-  bottom: -320px;
-  right: -30px;
+  bottom: -20rem;
+  right: -1.875rem;
   z-index: -90;
 }
 .small_waves {

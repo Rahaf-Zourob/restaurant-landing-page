@@ -1,5 +1,5 @@
 .classify {
-  padding: 0 10px;
+  padding: 0 0.625rem;
   height: 2rem;
   background-color: var(--primary-green);
   color: var(--primary-text);

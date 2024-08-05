@@ -8,18 +8,18 @@
   align-items: center;
 }
 .small {
-  width: 43px;
-  height: 43px;
+  width: 2.6875rem;
+  height: 2.6875rem;
 }
 
 .medium {
-  width: 121px;
-  height: 121px;
+  width: 7.5625rem;
+  height: 7.5625rem;
 }
 
 .large {
-  width: 171px;
-  height: 171px;
+  width: 10.6875rem;
+  height: 10.6875rem;
 }
 
 .green {
