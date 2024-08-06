@@ -1,9 +1,16 @@
 import styles from "./linkList.module.css";
-export default function LinkList({ data, social_media, img, direction }) {
+export default function LinkList({ data, social_media, img, direction='row', gap }) {
+
+  const gaps = {
+    small: styles.gap_small,
+    medium: styles.gap_medium,
+    large: styles.gap_large,
+  };
+
   return (
     <>
       {img ? (
-        <ul className={styles.img_list}>
+        <ul className ={`${styles.img_list} ${gaps[gap]}`} >
           {data.map((item) => (
             <li
               key={item.id}
@@ -15,8 +22,9 @@ export default function LinkList({ data, social_media, img, direction }) {
         </ul>
       ) : (
         <ul
-          className={`${styles.service} ${direction === "row" ? styles.row : styles.column
-            }`}
+          className={`${styles.service} ${
+            direction === "row" ? styles.row : styles.column
+          } ${gaps[gap]} `}
         >
           {data.map((service) => (
             <li key={service.id}>
