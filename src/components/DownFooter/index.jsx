@@ -9,12 +9,10 @@ import { menuLinks1, menuLinks2 } from "../../constant/menuLinks";
 import { message } from './../../utils/message';
 
 import styles from "./downFooter.module.css"
-import Circle from './../Circle';
 
 export default function DownFooter() {
     return (
         <div className={styles.footer}>
-            <Circle />
             <Container>
                 <div className={styles.flex}>
                     <div className={styles.contact}>
