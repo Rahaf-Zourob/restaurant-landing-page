@@ -1,0 +1,140 @@
+.section {
+  position: relative;
+  margin: 5.67rem 0 10.6rem;
+  overflow: hidden;
+}
+
+.portrait_container {
+  width: 50%;
+  margin-right: 5rem;
+}
+
+.content {
+  padding-top: 8.125rem;
+  flex: 1;
+  width: fit-content;
+}
+
+.title_styling {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.h2_styling {
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.form_style {
+  border: 0.0625rem solid var(--light-gray-transparency-4) !important;
+}
+
+.input_style {
+  color: var(--light-gray-transparency-4);
+}
+
+.location_icon path {
+  fill: var(--light-gray-transparency);
+}
+
+.Portrait_decoration {
+  position: relative;
+  flex: 1;
+  width: fit-content;
+}
+
+.photo_styling {
+  position: relative;
+  bottom: -0.3125rem;
+}
+
+.map_img {
+  position: absolute;
+  right: 2.8125rem;
+  bottom: 2.25rem;
+}
+
+.bubbles_img {
+  position: absolute;
+  left: 6.875rem;
+  top: 8.75rem;
+}
+
+.combined_shape {
+  margin-top: 0.75rem;
+}
+
+.combined_shape_container {
+  position: absolute;
+  top: 7.9375rem;
+  right: 0.9375rem;
+  transform: translate(-50%, -50%);
+}
+
+.combined_shape_container path {
+  fill: var(--dark-gray);
+}
+
+.cdmx_label {
+  position: absolute;
+  background-color: var(--absolute-white);
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 1.1875rem 0.3125rem rgba(0, 0, 0, 0.09);
+  width: 10.5625rem;
+  height: 4rem;
+  padding: 0 0.625rem;
+  bottom: 3.125rem;
+  left: 9.8125rem;
+}
+
+.location_icon_cdmx {
+  width: 20%;
+}
+
+.location_icon_cdmx svg {
+  width: 80%;
+}
+
+.location_icon_cdmx path {
+  fill: var(--mustard);
+}
+
+.label_text {
+  font-family: DM Sans;
+  font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: left;
+  color: var(--dark-gray);
+}
+
+.multi_circle_pattern {
+  position: absolute;
+  left: 0;
+  bottom: 16.875rem;
+  z-index: -60;
+
+}
+
+.big_circle {
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: -1.25rem;
+  right: -8.125rem;
+  z-index: -90;
+
+}
+
+.small_circle {
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 8.4375rem;
+  right: 7.5rem;
+  z-index: -80;
+
+}

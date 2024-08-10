@@ -1,9 +1,7 @@
-import React, { useState } from "react";
 import styles from "./CarouselCard.module.css";
 import FlexDiv from "../FlexDiv";
 
 function CarouselCard({ handleClick, data, isActive, id }) {
-  // const [active, setActive] = useState(false);
   let { mealName, mealDescription, rate, url } = data;
 
   const handlingClick = () => {
