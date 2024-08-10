@@ -1,6 +1,8 @@
 import Container from './../Container';
-import { combinedShape } from "../../utils/combinedShape";
 import Logo from './../Logo';
+import Circle from './../Circle';
+
+import { combinedShape } from "../../utils/combinedShape";
 
 import styles from "./topFooter.module.css"
 
@@ -25,6 +27,10 @@ export default function TopFooter() {
                                 <div className={styles.img}></div>
                             </div>
                         </div>
+                            <div className={styles.circles}>
+                                <Circle size="small" background='fadeGreen' className={styles.end} />
+                                <Circle size='large' background='lightGreen' />
+                            </div>
                     </div>
                 </div>
             </Container>
