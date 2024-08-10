@@ -56,9 +56,6 @@
         |-- Button
             |-- button.module.css
             |-- index.jsx
-        |-- Carousel
-            |-- Carousel.module.css
-            |-- index.jsx
         |-- CarouselCard
             |-- CarouselCard.module.css
             |-- index.jsx
