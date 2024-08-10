@@ -38,6 +38,7 @@
         |-- fonts
             |-- .gitkeep
             |-- Caveat-Regular.ttf
+            |-- DMSans_18pt-ExtraBold.ttf
             |-- DMSans_18pt-Regular.ttf
             |-- WorkSans-Bold.ttf
             |-- WorkSans-ExtraBold.ttf
@@ -61,9 +62,6 @@
         |-- CarouselCard
             |-- CarouselCard.module.css
             |-- index.jsx
-        |-- ChefFemale
-            |-- ChefFemale.module.css
-            |-- index.jsx
         |-- Circle
             |-- Circle.module.css
             |-- index.jsx
@@ -72,9 +70,6 @@
             |-- index.jsx
         |-- DownFooter
             |-- downFooter.module.css
-            |-- index.jsx
-        |-- FavCard
-            |-- FavCard.module.css
             |-- index.jsx
         |-- FavCardList
             |-- FavCardList.module.css
@@ -85,9 +80,6 @@
         |-- HeadSection
             |-- HeadSection.module.css
             |-- index.jsx
-        |-- HeroSection
-            |-- HeroSection.module.css
-            |-- index.jsx
         |-- Image
             |-- image.module.css
             |-- index.jsx
@@ -95,9 +87,6 @@
             |-- index.jsx
             |-- linkList.module.css
         |-- Logo
-            |-- index.jsx
-        |-- ManCustomer
-            |-- ManCustomer.module.css
             |-- index.jsx
         |-- MenuCard
             |-- index.jsx
@@ -117,6 +106,9 @@
         |-- TopFooter
             |-- index.jsx
             |-- topFooter.module.css
+        |-- favCard
+            |-- FavCard.module.css
+            |-- index.jsx
     |-- constant
         |-- .gitkeep
         |-- favList.js
@@ -133,11 +125,31 @@
     |-- pages
         |-- .gitkeep
         |-- Home
+            |-- Footer
+                |-- index.jsx
+            |-- Header
+                |-- HeroSection.module.css
+                |-- index.jsx
             |-- Sections
+                |-- CarouselSection
+                    |-- Carousel.module.css
+                    |-- index.jsx
+                |-- ChefFemaleSection
+                    |-- ChefFemale.module.css
+                    |-- index.jsx
+                |-- FondasSection
+                    |-- index.jsx
                 |-- Footer
+                    |-- index.jsx
+                |-- ManCustomerSection
+                    |-- ManCustomer.module.css
                     |-- index.jsx
                 |-- MejoresSection
                     |-- index.jsx
+                |-- style.module.css
+            |-- index.jsx
+    |-- svg
+        |-- .gitkeep
     |-- utils
         |-- .gitkeep
         |-- applePay.js

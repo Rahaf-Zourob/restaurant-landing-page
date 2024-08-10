@@ -1,7 +1,7 @@
 .section {
   position: relative;
   margin: 5.67rem 0 10.6rem;
-  overflow: hidden;
+  max-height:fit-content;
 }
 
 .portrait_container {
