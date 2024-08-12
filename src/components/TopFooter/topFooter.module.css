@@ -106,8 +106,22 @@ section.container {
 
 
 .mobile_background .img {
-    background-image: url(../../../public/assets/Images/fonditas.png);
+    background-image: url(../../../public/assets/Images/cutting_table.png);
     width: 18rem;
     height: 20.4rem;
     margin: 0 auto;
+}
+
+.circles {
+    width: 20rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -15rem;
+    top: 3.88rem;
+}
+
+.end {
+    margin-bottom: 2.81rem;
+    align-self: self-end;
 }

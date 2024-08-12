@@ -1,32 +1,46 @@
 .button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    color: var(--absolute-white);
-    font-family: DM Sans;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.302rem;
-    text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  color: var(--absolute-white);
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.302rem;
+  text-align: center;
+
+  min-width: fit-content;
+  overflow: hidden;
+}
+.button > * {
+  margin: auto;
 }
 
 .circle {
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
 }
 
+.radius_small{
+  border-radius: 0.3rem;
+}
+.radius_medium{
+  border-radius: 0.625rem;
+}
 .rectangle {
-    border-radius: 0.3rem;
-    padding: 0.875rem 1.4rem;
-    width: 20%;
+  padding: 0.875rem 1.4rem;
+  width: 20%;
 }
 
 .transparent {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .bgPink {
-    background-color: var(--primary-pink);
+  background-color: var(--primary-pink);
+}
+.insert_border {
+  border: 0.0625rem solid var(--absolute-white);
 }

@@ -1,0 +1,19 @@
+.portrait_container {
+  position: relative;
+  max-width: fit-content;
+}
+.background {
+  width: 28rem;
+  height: 29rem;
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: -100;
+}
+.pink {
+  background-color: var(--light-pink);
+}
+.orange {
+  background-color: var(--light-greenish-blue);
+}

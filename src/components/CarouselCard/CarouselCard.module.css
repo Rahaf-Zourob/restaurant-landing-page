@@ -1,0 +1,95 @@
+.container {
+  width: 10.625rem;
+  height: 15rem;
+  border: none;
+  border-radius: 0.9375rem;
+  font-family: DM Sans;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container:hover,
+.meal_name:focus {
+  box-shadow: 0 0.9375rem 0.9375rem 1.0625rem rgba(0, 0, 0, 0.05);
+  transform: scale(1.02);
+  background-color: var(--vivid-orange);
+}
+.container:active {
+  box-shadow: 0 0.9375rem 0.9375rem 1.0625rem rgba(0, 0, 0, 0.09);
+  transform: scale(1.07);
+  background-color: var(--vivid-orange);
+}
+
+.meal_img_container {
+  position: relative;
+}
+.img_wrapper {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-color: var(--absolute-white);
+}
+.rating {
+  position: absolute;
+  top: 0;
+  right: -0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--primary-green-transparency-2);
+  color: var(--absolute-white);
+  transition: all ease-in-out 0.3s;
+}
+.container:hover .rating,
+.container:focus .rating {
+  background-color: var(--primary-green-transparency);
+}
+.active_rating {
+  background-color: var(--primary-green-transparency);
+}
+.meal_name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transition: all ease-in-out 0.3s;
+}
+.container:hover .meal_name,
+.container:focus .meal_name {
+  color: var(--absolute-white);
+}
+.meal_description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 0;
+  margin-top: -0.1875rem;
+  line-height: 0;
+  transition: all ease-in-out 0.3s;
+}
+.container:hover .meal_description,
+.container:focus .meal_description {
+  color: var(--light-gray-transparency-3);
+}
+
+.active_container {
+  background-color: var(--vivid-orange);
+  box-shadow: 0 0.9375rem 0.9375rem 1.0625rem rgba(0, 0, 0, 0.09);
+  transform: scale(1.07);
+}
+.not_active_container {
+  background-color: var(--light-gray-transparency-2);
+}
+
+.not_active_meal_name {
+  color: var(--dark-gray);
+}
+.active_meal_name {
+  color: var(--absolute-white);
+}
+
+.not_active_description {
+  color: var(--light-gray-transparency);
+}
+.active_description {
+  color: var(--light-gray-transparency-3);
+}

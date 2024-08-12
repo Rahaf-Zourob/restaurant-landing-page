@@ -1,4 +1,4 @@
-import SearchBar from '../SearchBar/SearchBar';
+import SearchBar from './../SearchBar/index';
 import Container from './../Container';
 import LinkList from "../LinkList";
 import Logo from '../Logo';

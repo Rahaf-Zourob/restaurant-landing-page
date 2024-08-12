@@ -1,0 +1,44 @@
+.border_radius {
+  border-radius: 50%;
+}
+.centering_children {
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small {
+  width: 2.6875rem;
+  height: 2.6875rem;
+}
+
+.medium {
+  width: 7.5625rem;
+  height: 7.5625rem;
+}
+
+.large {
+  width: 10.6875rem;
+  height: 10.6875rem;
+}
+
+.green {
+  background-color: var(--primary-green-transparency);
+}
+.fade_green{
+  background-color: var(--primary-green-transparency-2);
+}
+.light_orange {
+  background-color: var(--light-greenish-blue);
+}
+.dark_orange {
+  background-color: var(--dark-orange);
+}
+
+.pink {
+  background-color: var(--light-pink);
+}
+
+.light_green{
+  background-color: var(--light-green);
+}
